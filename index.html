@@ -1,0 +1,99 @@
+<html>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Aiza Services</title>
+  <style>
+    body {
+      background-color: lightblue;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .button {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+    .confirmation {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+
+    .image-container {
+      text-align: right;
+    }
+
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Welcome to Aiza Services</h1>
+    <p>Your trusted partner for a wide range of professional solutions.</p>
+    <p>Located in Summit Townhomes, Burnsville, Minnesota.</p>
+    <p>Our dedicated team is here to assist you with various services including traveling, tax consultation, immigration support, and more.</p>
+    <p>At Aiza Services, we understand the importance of meeting your specific needs. Whether you're planning a vacation, need expert guidance for tax-related matters, or require assistance with immigration processes, our experienced professionals are ready to help.</p>
+    <p>Traveling is a passion for many, and we aim to make your travel experiences seamless and memorable. From flight bookings and hotel reservations to travel insurance and visa assistance, we provide comprehensive travel services tailored to your preferences. Let us handle the logistics while you focus on creating unforgettable moments.</p>
+    <p>When it comes to taxes, our knowledgeable team stays up-to-date with the latest regulations and deductions. Whether you're an individual, a small business owner, or require assistance with corporate taxes, we offer personalized tax solutions to ensure compliance and maximize your financial benefits.</p>
+    <p>Navigating the complexities of immigration can be overwhelming, but with Aiza Services by your side, you can have peace of mind. Our immigration experts are well-versed in various visa applications, green card processes, and citizenship requirements. We provide guidance, document preparation, and constant support throughout your immigration journey.</p>
+    <p>At Aiza Services, we pride ourselves on delivering exceptional customer service. Our dedicated professionals prioritize your satisfaction, and we strive to build long-lasting relationships based on trust and reliability. We take the time to understand your unique circumstances and provide tailored solutions that best suit your needs.</p>
+    <p>Visit us at our convenient location:</p>
+    <p>1500 McAndrews Rd W suite 204, Burnsville, MN 55337</p>
+    <p>Business Hours: 8:00 AM - 5:00 PM</p>
+    <p>Contact us at (612) 402-9183 to schedule an appointment or inquire about our services.</p>
+    <div class="image-container">
+      <img src="https://lh3.googleusercontent.com/p/AF1QipMXdB2gmFibfnYxJi64puLLJbvYZL3QlS36WJ0M=w960-h960-n-o-v1" alt="Aiza Services">
+    </div>
+    <h2>Schedule an Appointment</h2>
+    <form action="send_email.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required><br><br>
+      <label for="time">Time:</label>
+      <select id="time" name="time" required>
+        <option value="8:00 AM">8:00 AM - 8:30 AM</option>
+        <option value="8:30 AM">8:30 AM - 9:00 AM</option>
+        <option value="9:00 AM">9:00 AM - 9:30 AM</option>
+        <option value="9:30 AM">9:30 AM - 10:00 AM</option>
+        <option value="10:00 AM">10:00 AM - 10:30 AM</option>
+        <option value="10:30 AM">10:30 AM - 11:00 AM</option>
+        <option value="11:00 AM">11:00 AM - 11:30 AM</option>
+        <option value="11:30 AM">11:30 AM - 12:00 PM</option>
+        <option value="12:00 PM">12:00 PM - 12:30 PM</option>
+        <option value="12:30 PM">12:30 PM - 1:00 PM</option>
+        <option value="1:00 PM">1:00 PM - 1:30 PM</option>
+        <option value="1:30 PM">1:30 PM - 2:00 PM</option>
+        <option value="2:00 PM">2:00 PM - 2:30 PM</option>
+        <option value="2:30 PM">2:30 PM - 3:00 PM</option>
+        <option value="3:00 PM">3:00 PM - 3:30 PM</option>
+        <option value="3:30 PM">3:30 PM - 4:00 PM</option>
+        <option value="4:00 PM">4:00 PM - 4:30 PM</option>
+        <option value="4:30 PM">4:30 PM - 5:00 PM</option>
+      </select><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+
+</html>
